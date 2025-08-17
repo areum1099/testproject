@@ -13,6 +13,9 @@ struct ContentView: View {
             Text("Knock, knock!")
                 .padding()
                 .background(Color.yellow, in: RoundedRectangle(cornerRadius: 8))
+            Text("Who's there?")
+                .padding()
+                .background(Color.teal, in: RoundedRectangle(cornerRadius: 8))
         }
         .padding()
     }
